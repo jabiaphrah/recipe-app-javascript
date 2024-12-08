@@ -1,0 +1,154 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #ffcccb;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    color: #d63f3f;
+    margin: 0;
+  }
+  
+  header .logo img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  
+  .search-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .search-container input {
+    padding: 10px;
+    width: 70%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+  }
+  
+  /* Recipe Section */
+.recipe-section {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .recipe-section h2 {
+    font-size: 2em;
+    color: #d63f3f;
+    margin-bottom: 20px;
+  }
+  
+  .recipe-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px
+  }
+  
+  .card {
+    background-color: #fff;
+    margin: 10px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card img {
+    width: 250px;
+    height: 200px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .card img:hover {
+    transform: scale(1.05);
+  }
+
+  /* Modal Styling */
+.modal-content {
+    padding: 20px;
+  }
+  
+  .modal-body h5 {
+    font-size: 1.25rem;
+    margin-top: 10px;
+  }
+  
+  .modal-body ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .modal-body ul li {
+    margin-bottom: 5px;
+  }
+  
+  .modal-body ol {
+    margin-top: 10px;
+  }
+  
+  .modal-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .modal-footer button {
+    padding: 10px 20px;
+  }
+  
+    
+  
+  .card h3 {
+    font-size: 1.2em;
+    color: #333;
+    padding: 10px 0;
+  }
+  
+  .card button {
+    background-color: #d63f3f;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 80%;
+  }
+  
+  .card button:hover {
+    background-color: #c03030;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .recipe-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .search-container input {
+      width: 90%;
+    }
+  }
+  

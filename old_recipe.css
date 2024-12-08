@@ -1,0 +1,15 @@
+/* h1 {
+    font-size: 200px;
+    color: red;
+} */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.logo h1 {
+    font-size: 18px;
+    text-align: center;
+}
