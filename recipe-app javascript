@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -92,7 +91,7 @@
   <!-- Header Section -->
   <header>
     <div class="logo">
-    <img src="/assets/image/" alt="Chef Logo">
+      <img src="/image/recipe.jpg" alt="Chef Logo">
     </div>
     <h1>Recipe App</h1>
   </header>
@@ -108,35 +107,35 @@
     <div class="recipe-cards">
       <!-- Strawberry Cream Cheesecake -->
       <div class="card">
-        <img src="/assets/image/strawberry-cake.jpg" alt="Strawberry Cream Cheesecake">
+        <img src="/image/strawberry-cake.jpg" alt="Strawberry Cream Cheesecake">
         <h3>Strawberry Cream Cheesecake</h3>
         <button onclick="openRecipeModal('strawberry')" class="recipe-button">Read More</button>
       </div>
       
       <!-- Chocolate Fudge Cake -->
       <div class="card">
-        <img src="/assets/image/chocolate fudge cake.jpeg" alt="Chocolate Fudge Cake">
+        <img src="/image/chocolate fudge cake.jpeg" alt="Chocolate Fudge Cake">
         <h3>Chocolate Fudge Cake</h3>
         <button onclick="openRecipeModal('chocolate')" class="recipe-button">Read More</button>
       </div>
       
       <!-- Blueberry Cheesecake -->
       <div class="card">
-        <img src="/assets/image/blueberry cheesecake.jpg" alt="Blueberry Cheesecake">
+        <img src="/image/blueberry cheesecake.jpg" alt="Blueberry Cheesecake">
         <h3>Blueberry Cheesecake</h3>
         <button onclick="openRecipeModal('blueberry')" class="recipe-button">Read More</button>
       </div>
 
       <!-- Lemon Cheesecake -->
       <div class="card">
-        <img src="/assets/image/lemon-cheesecake.jpg" alt="Lemon Cheesecake">
+        <img src="/image/lemon-cheesecake.jpg" alt="Lemon Cheesecake">
         <h3>Lemon Cheesecake</h3>
         <button onclick="openRecipeModal('lemon')" class="recipe-button">Read More</button>
       </div>
 
       <!-- Apple Pie -->
       <div class="card">
-        <img src="/assets/image/apple pie.jpg" alt="Apple Pie">
+        <img src="/image/apple pie.jpg" alt="Apple Pie">
         <h3>Apple Pie</h3>
         <button onclick="openRecipeModal('apple')" class="recipe-button">Read More</button>
       </div>
@@ -193,7 +192,7 @@
           recipeTitle = 'Strawberry Cream Cheesecake';
           recipeImage = '/image/strawberry-cake.jpg';
           recipeContent = `
-           <img src="/assets/image/image-225x225 (1).jpg" alt="Strawberry Cream Cheesecake">
+            <img src="${recipeImage}" alt="Strawberry Cream Cheesecake" class="recipe-image">
             <h5>Ingredients</h5>
             <ul>
               <li>400g graham crackers</li>
@@ -224,7 +223,7 @@
           recipeTitle = 'Chocolate Fudge Cake';
           recipeImage = '/image/chocolate fudge cake.jpeg';
           recipeContent = `
-           <img src="/assets/image/chocolate fudge cake.jpeg" alt="Chocolate Fudge Cake">
+            <img src="${recipeImage}" alt="Chocolate Fudge Cake" class="recipe-image">
             <h5>Ingredients</h5>
             <ul>
               <li>200g dark chocolate</li>
@@ -249,7 +248,7 @@
           recipeTitle = 'Blueberry Cheesecake';
           recipeImage = '/image/blueberry cheesecake.jpg';
           recipeContent = `
-             <img src="/assets/image/image-550x350.jpg" alt="Blueberry Cheesecake">
+            <img src="${recipeImage}" alt="Blueberry Cheesecake" class="recipe-image">
             <h5>Ingredients</h5>
             <ul>
               <li>200g blueberries</li>
@@ -272,7 +271,7 @@
           recipeTitle = 'Lemon Cheesecake';
           recipeImage = '/image/lemon-cheesecake.jpg';
           recipeContent = `
-           <img src="/assets/image/image-225x225.jpg" alt="Lemon Cheesecake">
+            <img src="${recipeImage}" alt="Lemon Cheesecake" class="recipe-image">
             <h5>Ingredients</h5>
             <ul>
               <li>1 cup cream cheese</li>
@@ -294,7 +293,7 @@
           recipeTitle = 'Apple Pie';
           recipeImage = '/image/apple pie.jpg';
           recipeContent = `
-            <img src="/assets/image/apple pie.jpg" alt="Apple Pie">
+            <img src="${recipeImage}" alt="Apple Pie" class="recipe-image">
             <h5>Ingredients</h5>
             <ul>
               <li>5 apples</li>
